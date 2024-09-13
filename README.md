@@ -2,12 +2,12 @@
 # 代码说明：\
 **PasswordManager 类**：处理密码管理的核心类。
 
--generate_key：使用主密码和盐生成AES加密密钥。
--encrypt_password：使用AES-GCM模式加密密码。
--decrypt_password：解密存储的密码。
--store_password：将加密后的密码存储在JSON文件中。
--retrieve_password：从存储中检索并解密密码。
--generate_strong_password：生成一个随机的强密码，包含大小写字母、数字和特殊字符。
+- generate_key：使用主密码和盐生成AES加密密钥。
+- encrypt_password：使用AES-GCM模式加密密码。
+- decrypt_password：解密存储的密码。
+- store_password：将加密后的密码存储在JSON文件中。
+- retrieve_password：从存储中检索并解密密码。
+- generate_strong_password：生成一个随机的强密码，包含大小写字母、数字和特殊字符。
 
 **密码加密**：使用AES-GCM算法确保密码存储的安全性，AESGCM是高度安全的认证加密模式。
 

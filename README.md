@@ -1,4 +1,5 @@
 # 简单密码管理器应用的实现
+首先，你需要安装 cryptography 库，用于实现AES加密。
 ## 代码说明：
 **PasswordManager 类**：处理密码管理的核心类。
 
